@@ -1,7 +1,7 @@
 angular.module('starter.services', [])
 
 .factory('temanService', function($http) {
-    var baseUrl = 'http://localhost/learnIONIC/';
+    var baseUrl = 'http://mts-almuhajirin.xyz/';
     return {
         getAll: function() {
             return $http.get(baseUrl+'select.php');
